@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_precision_entries">
+        <item>Round to whole</item>
+        <item>1 decimal place</item>
+        <item>2 decimal places</item>
+        <item>3 decimal places</item>
+        <item>4 decimal places</item>
+    </string-array>
+    <string-array name="pref_precision_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_autoupdate_interval">
+        <item>15 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>12 hours</item>
+        <item>Once per day</item>
+    </string-array>
+    <string-array name="pref_autoupdate_interval_values" translatable="false">
+        <item>900000</item> <!-- milliseconds, values correspond to AlarmManager.INTERVAL_* -->
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+</resources>

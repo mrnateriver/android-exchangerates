@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Currencies>
+    <Currency code="USD" title="US Dollar" initial="true" />
+    <Currency code="EUR" title="Euro" initial="true" />
+    <Currency code="GBP" title="British Pound" initial="true" />
+    <Currency code="CHF" title="Swiss Franc" initial="true" />
+    <Currency code="JPY" title="Japanese Yen" initial="true" />
+    <Currency code="CNY" title="Chinese Yuan Renminbi" initial="true" />
+    <Currency code="INR" title="Indian Rupee" />
+    <Currency code="AUD" title="Australian Dollar" />
+    <Currency code="CAD" title="Canadian Dollar" />
+    <Currency code="BTC" title="Bitcoin" separator="true" />
+
+    <Currency code="AED" title="Emirati Dirham" />
+    <Currency code="AFN" title="Afghan Afghani" />
+    <Currency code="ALL" title="Albanian Lek" />
+    <Currency code="AMD" title="Armenian Dram" />
+    <Currency code="ANG" title="Dutch Guilder" />
+    <Currency code="AOA" title="Angolan Kwanza" />
+    <Currency code="ARS" title="Argentine Peso" />
+    <Currency code="AWG" title="Aruban or Dutch Guilder" />
+    <Currency code="AZN" title="Azerbaijani New Manat" />
+    <Currency code="BAM" title="Bosnian Convertible Marka" />
+    <Currency code="BBD" title="Barbadian or Bajan Dollar" />
+    <Currency code="BDT" title="Bangladeshi Taka" />
+    <Currency code="BGN" title="Bulgarian Lev" />
+    <Currency code="BHD" title="Bahraini Dinar" />
+    <Currency code="BIF" title="Burundian Franc" />
+    <Currency code="BMD" title="Bermudian Dollar" />
+    <Currency code="BND" title="Bruneian Dollar" />
+    <Currency code="BOB" title="Bolivian Boliviano" />
+    <Currency code="BRL" title="Brazilian Real" />
+    <Currency code="BSD" title="Bahamian Dollar" />
+    <Currency code="BTN" title="Bhutanese Ngultrum" />
+    <Currency code="BWP" title="Botswana Pula" />
+    <Currency code="BYR" title="Belarusian Ruble" />
+    <Currency code="BZD" title="Belizean Dollar" />
+    <Currency code="CDF" title="Congolese Franc" />
+    <Currency code="CLP" title="Chilean Peso" />
+    <Currency code="COP" title="Colombian Peso" />
+    <Currency code="CRC" title="Costa Rican Colon" />
+    <Currency code="CUP" title="Cuban Peso" />
+    <Currency code="CVE" title="Cape Verdean Escudo" />
+    <Currency code="CZK" title="Czech Koruna" />
+    <Currency code="DJF" title="Djiboutian Franc" />
+    <Currency code="DKK" title="Danish Krone" />
+    <Currency code="DOP" title="Dominican Peso" />
+    <Currency code="DZD" title="Algerian Dinar" />
+    <Currency code="EGP" title="Egyptian Pound" />
+    <Currency code="ERN" title="Eritrean Nakfa" />
+    <Currency code="ETB" title="Ethiopian Birr" />
+    <Currency code="FJD" title="Fijian Dollar" />
+    <Currency code="FKP" title="Falkland Island Pound" />
+    <Currency code="GEL" title="Georgian Lari" />
+    <Currency code="GHS" title="Ghanaian Cedi" />
+    <Currency code="GIP" title="Gibraltar Pound" />
+    <Currency code="GMD" title="Gambian Dalasi" />
+    <Currency code="GNF" title="Guinean Franc" />
+    <Currency code="GTQ" title="Guatemalan Quetzal" />
+    <Currency code="GYD" title="Guyanese Dollar" />
+    <Currency code="HKD" title="Hong Kong Dollar" />
+    <Currency code="HNL" title="Honduran Lempira" />
+    <Currency code="HRK" title="Croatian Kuna" />
+    <Currency code="HTG" title="Haitian Gourde" />
+    <Currency code="HUF" title="Hungarian Forint" />
+    <Currency code="IDR" title="Indonesian Rupiah" />
+    <Currency code="ILS" title="Israeli Shekel" />
+    <Currency code="IQD" title="Iraqi Dinar" />
+    <Currency code="IRR" title="Iranian Rial" />
+    <Currency code="ISK" title="Icelandic Krona" />
+    <Currency code="JMD" title="Jamaican Dollar" />
+    <Currency code="JOD" title="Jordanian Dinar" />
+    <Currency code="KES" title="Kenyan Shilling" />
+    <Currency code="KGS" title="Kyrgyzstani Som" />
+    <Currency code="KHR" title="Cambodian Riel" />
+    <Currency code="KMF" title="Comoran Franc" />
+    <Currency code="KPW" title="North Korean Won" />
+    <Currency code="KRW" title="South Korean Won" />
+    <Currency code="KWD" title="Kuwaiti Dinar" />
+    <Currency code="KYD" title="Caymanian Dollar" />
+    <Currency code="KZT" title="Kazakhstani Tenge" />
+    <Currency code="LAK" title="Lao or Laotian Kip" />
+    <Currency code="LBP" title="Lebanese Pound" />
+    <Currency code="LKR" title="Sri Lankan Rupee" />
+    <Currency code="LRD" title="Liberian Dollar" />
+    <Currency code="LSL" title="Basotho Loti" />
+    <Currency code="LTL" title="Lithuanian Lita" />
+    <Currency code="LVL" title="Latvian Lat" />
+    <Currency code="LYD" title="Libyan Dinar" />
+    <Currency code="MAD" title="Moroccan Dirham" />
+    <Currency code="MDL" title="Moldovan Leu" />
+    <Currency code="MGA" title="Malagasy Ariary" />
+    <Currency code="MKD" title="Macedonian Denar" />
+    <Currency code="MMK" title="Burmese Kyat" />
+    <Currency code="MNT" title="Mongolian Tughrik" />
+    <Currency code="MOP" title="Macau Pataca" />
+    <Currency code="MRO" title="Mauritanian Ouguiya" />
+    <Currency code="MUR" title="Mauritian Rupee" />
+    <Currency code="MVR" title="Maldivian Rufiyaa" />
+    <Currency code="MWK" title="Malawian Kwacha" />
+    <Currency code="MXN" title="Mexican Peso" />
+    <Currency code="MYR" title="Malaysian Ringgit" />
+    <Currency code="MZN" title="Mozambican Metical" />
+    <Currency code="NAD" title="Namibian Dollar" />
+    <Currency code="NGN" title="Nigerian Naira" />
+    <Currency code="NIO" title="Nicaraguan Cordoba" />
+    <Currency code="NOK" title="Norwegian Krone" />
+    <Currency code="NPR" title="Nepalese Rupee" />
+    <Currency code="NZD" title="New Zealand Dollar" />
+    <Currency code="OMR" title="Omani Rial" />
+    <Currency code="PAB" title="Panamanian Balboa" />
+    <Currency code="PEN" title="Peruvian Nuevo Sol" />
+    <Currency code="PGK" title="Papua New Guinean Kina" />
+    <Currency code="PHP" title="Philippine Peso" />
+    <Currency code="PKR" title="Pakistani Rupee" />
+    <Currency code="PLN" title="Polish Zloty" />
+    <Currency code="PYG" title="Paraguayan Guarani" />
+    <Currency code="QAR" title="Qatari Riyal" />
+    <Currency code="RON" title="Romanian New Leu" />
+    <Currency code="RSD" title="Serbian Dinar" />
+    <Currency code="RUB" title="Russian Ruble" />
+    <Currency code="RWF" title="Rwandan Franc" />
+    <Currency code="SAR" title="Saudi Arabian Riyal" />
+    <Currency code="SBD" title="Solomon Islander Dollar" />
+    <Currency code="SCR" title="Seychellois Rupee" />
+    <Currency code="SDG" title="Sudanese Pound" />
+    <Currency code="SEK" title="Swedish Krona" />
+    <Currency code="SGD" title="Singapore Dollar" />
+    <Currency code="SHP" title="Saint Helenian Pound" />
+    <Currency code="SIT" title="Slovenian Tolar" />
+    <Currency code="SLL" title="Sierra Leonean Leone" />
+    <Currency code="SOS" title="Somali Shilling" />
+    <Currency code="SRD" title="Surinamese Dollar" />
+    <Currency code="STD" title="Sao Tomean Dobra" />
+    <Currency code="SVC" title="Salvadoran Colon" />
+    <Currency code="SYP" title="Syrian Pound" />
+    <Currency code="SZL" title="Swazi Lilangeni" />
+    <Currency code="THB" title="Thai Baht" />
+    <Currency code="TJS" title="Tajikistani Somoni" />
+    <Currency code="TMT" title="Turkmenistani Manat" />
+    <Currency code="TND" title="Tunisian Dinar" />
+    <Currency code="TOP" title="Tongan Pa'anga" />
+    <Currency code="TRY" title="Turkish Lira" />
+    <Currency code="TTD" title="Trinidadian Dollar" />
+    <Currency code="TWD" title="Taiwan New Dollar" />
+    <Currency code="TZS" title="Tanzanian Shilling" />
+    <Currency code="UAH" title="Ukrainian Hryvnia" />
+    <Currency code="UGX" title="Ugandan Shilling" />
+    <Currency code="UYU" title="Uruguayan Peso" />
+    <Currency code="UZS" title="Uzbekistani Som" />
+    <Currency code="VEF" title="Venezuelan Bolivar" />
+    <Currency code="VND" title="Vietnamese Dong" />
+    <Currency code="VUV" title="Ni-Vanuatu Vatu" />
+    <Currency code="WST" title="Samoan Tala" />
+    <Currency code="XAF" title="Central African CFA Franc BEAC" />
+    <Currency code="XCD" title="East Caribbean Dollar" />
+    <Currency code="XOF" title="CFA Franc" />
+    <Currency code="XPF" title="CFP Franc" />
+    <Currency code="YER" title="Yemeni Rial" />
+    <Currency code="ZAR" title="South African Rand" />
+    <Currency code="ZMK" title="Zambian Kwacha" />
+</Currencies>

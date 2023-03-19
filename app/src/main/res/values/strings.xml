@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Currencies</string>
+    <string name="title_activity_main">Exchange rates</string>
+
+    <string name="action_create_conversion">Create conversion</string>
+    <string name="action_update_rates">Refresh</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_got_it">Got it</string>
+    <string name="action_add_currencies">Add currencies</string>
+    <string name="action_swap_currencies">Swap currencies</string>
+
+    <string name="empty_conversion_list_message">Add pairs of currencies to see their exchange rate.</string>
+    <string name="update_rates_message">Refresh to see exchange rates.</string>
+    <string name="pair_exists_message">This pair of currencies already exists.</string>
+    <string name="update_error_message">Unable to update exchange rates.</string>
+    <string name="last_update_date_message">Last update:</string>
+    <string name="empty_list_message">Empty list.</string>
+
+    <string name="tutorial_drag">Long-press any element to move it.</string>
+    <string name="tutorial_swipe">Swipe any element to remove it from the list.</string>
+
+    <string name="pref_precision">Precision</string>
+    <string name="pref_dynamics">Show dynamics</string>
+    <string name="pref_dynamics_summary">Show an icon indicating whether rate has increased or decreased.</string>
+    <string name="pref_autoupdate">Auto-update rates</string>
+    <string name="pref_autoupdate_summary">Allow application to update rates in background.</string>
+    <string name="pref_autoupdate_wifi_only">Update only over Wi-Fi</string>
+    <string name="pref_autoupdate_wifi_only_summary">Update rates in background only when connected to Wi-Fi.</string>
+    <string name="pref_autoupdate_interval">Auto-update interval</string>
+    <string name="pref_autoupdate_interval_dialog">Update rates every</string>
+
+    <string name="na_string">N/A</string>
+
+    <string name="down_arrow">&#9660;</string>
+    <string name="up_arrow">&#9650;</string>
+</resources>

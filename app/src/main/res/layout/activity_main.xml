@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <!-- Action bar.  -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="@string/title_activity_main"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- empty list message -->
+    <TextView
+        android:id="@+id/empty_conversion_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/fab_message_size"
+        android:textSize="@dimen/empty_list_text_size"
+        android:textColor="@color/currencySubtitleColor"
+        android:text="@string/empty_list_message"
+        android:visibility="gone" />
+
+    <!-- Currencies list. -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/conversion_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="50dp" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:id="@+id/empty_conversion_list_snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fab_message_size"
+        android:layout_gravity="bottom|start"
+        android:translationY="@dimen/fab_message_size"
+        android:background="@color/snackbarBackgroundColor">
+
+        <TextView
+            android:id="@+id/empty_conversion_list_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/snackbar_horizontal_padding"
+            android:paddingRight="@dimen/snackbar_fab_padding"
+            android:paddingTop="@dimen/snackbar_vertical_padding"
+            android:paddingBottom="@dimen/snackbar_vertical_padding"
+            android:paddingEnd="@dimen/snackbar_fab_padding"
+            android:paddingStart="@dimen/snackbar_horizontal_padding"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/snackbar_text_size"
+            android:textColor="@android:color/white"
+            android:alpha="0" />
+
+    </FrameLayout>
+
+    <!-- Floating button - add currency to list. -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"
+        app:layout_behavior="com.dobrovidov.currencies.ScrollAwareFABBehavior"/>
+
+</android.support.design.widget.CoordinatorLayout>

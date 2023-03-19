@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="title_activity_main">Exchange Rates</string>
+
+    <string name="action_create_conversion">Принять выбор</string>
+    <string name="action_update_rates">Обновить</string>
+    <string name="action_retry">Повторить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_got_it">Понятно</string>
+    <string name="action_add_currencies">Добавить валюты</string>
+    <string name="action_swap_currencies">Поменять валюты местами</string>
+
+    <string name="empty_conversion_list_message">Добавьте валюты, чтобы увидеть их обменный курс.</string>
+    <string name="update_rates_message">Обновите данные, чтобы увидеть курс.</string>
+    <string name="pair_exists_message">Эта пара валют уже добавлена.</string>
+    <string name="update_error_message">Не удалось обновить данные.</string>
+    <string name="last_update_date_message">Последнее обновление:</string>
+    <string name="empty_list_message">Список пуст.</string>
+
+    <string name="tutorial_drag">Нажмите на любой элемент и удерживайте, чтобы перетащить в нужное место.</string>
+    <string name="tutorial_swipe">Смахните любой элемент в сторону, чтобы удалить его из списка.</string>
+
+    <string name="pref_precision">Точность</string>
+    <string name="pref_dynamics">Показывать динамику</string>
+    <string name="pref_dynamics_summary">Отображать иконку, показывающую, увеличился или уменьшился курс.</string>
+    <string name="pref_autoupdate">Автоматическое обновление</string>
+    <string name="pref_autoupdate_summary">Обновлять Exchange Rates в фоновом режиме.</string>
+    <string name="pref_autoupdate_wifi_only">Обновлять только по Wi-Fi</string>
+    <string name="pref_autoupdate_wifi_only_summary">Обновлять Exchange Rates в фоне только при подключении к сети Wi-Fi.</string>
+    <string name="pref_autoupdate_interval">Интервал обновления</string>
+    <string name="pref_autoupdate_interval_dialog">Обновлять курсы каждые</string>
+
+    <string name="na_string">Н/Д</string>
+
+    <string name="down_arrow">&#9660;</string>
+    <string name="up_arrow">&#9650;</string>
+</resources>

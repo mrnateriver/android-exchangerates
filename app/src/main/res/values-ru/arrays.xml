@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_precision_entries">
+        <item>Округлять до целых</item>
+        <item>1 цифра после запятой</item>
+        <item>2 цифры после запятой</item>
+        <item>3 цифры после запятой</item>
+        <item>4 цифры после запятой</item>
+    </string-array>
+    <string-array name="pref_autoupdate_interval">
+        <item>15 минут</item>
+        <item>1 час</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>Раз в день</item>
+    </string-array>
+</resources>

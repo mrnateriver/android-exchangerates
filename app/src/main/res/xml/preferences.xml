@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_precision"
+        android:title="@string/pref_precision"
+        android:dialogTitle="@string/pref_precision"
+        android:summary="%s"
+        android:entries="@array/pref_precision_entries"
+        android:entryValues="@array/pref_precision_values"
+        android:defaultValue="@string/pref_precision_default" />
+
+    <CheckBoxPreference
+        android:key="pref_dynamics"
+        android:title="@string/pref_dynamics"
+        android:summary="@string/pref_dynamics_summary"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="pref_autoupdate"
+        android:title="@string/pref_autoupdate"
+        android:summary="@string/pref_autoupdate_summary"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="pref_autoupdate_wifi_only"
+        android:title="@string/pref_autoupdate_wifi_only"
+        android:summary="@string/pref_autoupdate_wifi_only_summary"
+        android:defaultValue="false"
+        android:dependency="pref_autoupdate" />
+
+    <ListPreference
+        android:key="pref_autoupdate_interval"
+        android:title="@string/pref_autoupdate_interval"
+        android:dialogTitle="@string/pref_autoupdate_interval_dialog"
+        android:summary="%s"
+        android:entries="@array/pref_autoupdate_interval"
+        android:entryValues="@array/pref_autoupdate_interval_values"
+        android:defaultValue="@string/pref_autoupdate_interval_default"
+        android:dependency="pref_autoupdate" />
+</PreferenceScreen>

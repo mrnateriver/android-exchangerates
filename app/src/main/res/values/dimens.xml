@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin_minus_one">15dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_message_size">87sp</dimen>
+
+    <dimen name="currency_title_size">20sp</dimen>
+    <dimen name="currency_subtitle_size">12sp</dimen>
+    <dimen name="currency_swap_button_padding">16dp</dimen>
+
+    <dimen name="empty_list_text_size">18sp</dimen>
+    <dimen name="message_size">16sp</dimen>
+
+    <dimen name="snackbar_text_size">14sp</dimen>
+    <dimen name="snackbar_horizontal_padding">24dp</dimen>
+    <dimen name="snackbar_vertical_padding">24dp</dimen>
+    <dimen name="snackbar_fab_padding">95dp</dimen>
+
+    <dimen name="currency_check_size">32dp</dimen>
+    <dimen name="currency_check_font_size">16sp</dimen>
+    <dimen name="currency_check_margin">4dp</dimen>
+    <dimen name="currency_tiny_margin">2dp</dimen>
+</resources>

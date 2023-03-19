@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="listDivider">#D2D2D2</color>
+    <color name="listDividerBrighter">#e1e1e1</color>
+
+    <color name="listItemBackground">#FFFFFFFF</color>
+    <color name="listItemBackgroundPressed">#e0e8ef</color>
+    <color name="listItemBackgroundSelected">#eff4f9</color>
+    <color name="listItemBackgroundSelectedRipple">#402196f3</color>
+
+    <color name="currencyTitleColor">#4E4E4E</color>
+    <color name="currencyTitleErrorColor">#c10c0c</color>
+    <color name="currencySubtitleColor">#9F9F9F</color>
+
+    <color name="snackbarBackgroundColor">#323232</color>
+
+    <color name="positiveDynamicsColor">#0cb41d</color>
+    <color name="negativeDynamicsColor">#c10c0c</color>
+</resources>

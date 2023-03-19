@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:outlineProvider="bounds"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/listDividerBrighter"
+    android:foreground="?selectableItemBackground">
+    <!-- FrameLayout is needed here for automatic ripple effect on select -->
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="1dp"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/left_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/currency_title_size"
+            android:textColor="@color/currencyTitleColor"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/left_currency_subtitle"
+            app:layout_widthPercent="45%"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/currency_subtitle_size"
+            android:textColor="@color/currencySubtitleColor"
+            android:maxLines="1"
+
+            android:layout_below="@id/left_currency"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:id="@+id/swap_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/currency_swap_button_padding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_compare_arrows_black_24dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/action_swap_currencies"
+
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/dynamics_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/currency_tiny_margin"
+            android:layout_marginStart="@dimen/currency_tiny_margin"
+            android:textSize="@dimen/currency_title_size"
+            android:textColor="@color/positiveDynamicsColor"
+            android:text="@string/up_arrow"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/right_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/currency_title_size"
+            android:textColor="@color/currencyTitleColor"
+
+            android:layout_toLeftOf="@id/dynamics_indicator"
+            android:layout_toStartOf="@id/dynamics_indicator"
+            android:layout_alignWithParentIfMissing="true" />
+
+        <TextView
+            android:id="@+id/right_currency_subtitle"
+            app:layout_widthPercent="45%"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/currency_subtitle_size"
+            android:textColor="@color/currencySubtitleColor"
+            android:gravity="end"
+            android:maxLines="1"
+
+            android:layout_below="@id/right_currency"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</FrameLayout>

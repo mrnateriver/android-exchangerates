@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/listDividerBrighter"
+    android:foreground="?selectableItemBackground">
+    <!-- FrameLayout is needed here for automatic ripple effect on select -->
+
+    <RelativeLayout
+        android:id="@+id/animated_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/currency_check"
+            android:text="1"
+            android:layout_width="@dimen/currency_check_size"
+            android:layout_height="@dimen/currency_check_size"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/currency_check_font_size"
+            android:textColor="@android:color/white"
+            android:background="@drawable/list_item_check"
+            android:visibility="gone"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/currency_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin_minus_one"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/currency_title_size"
+            android:textColor="@color/currencyTitleColor"
+
+            android:layout_toRightOf="@id/currency_check"
+            android:layout_toEndOf="@id/currency_check"/>
+
+        <TextView
+            android:id="@+id/currency_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:singleLine="true"
+            android:textSize="@dimen/currency_subtitle_size"
+            android:textColor="@color/currencySubtitleColor"
+
+            android:layout_toRightOf="@id/currency_check"
+            android:layout_toEndOf="@id/currency_check"
+            android:layout_below="@id/currency_title" />
+
+    </RelativeLayout>
+
+</FrameLayout>
